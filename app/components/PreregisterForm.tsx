@@ -275,18 +275,38 @@ export default function PreregisterForm() {
                 )}
               </div>
 
-              {/* Sección de pago placeholder */}
-              <div className="bg-gray-100 rounded-lg p-6 border-2 border-dashed border-gray-300">
-                <div className="text-center">
-                  <svg className="w-12 h-12 text-gray-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <h3 className="text-lg font-semibold text-gray-700 mb-2">
-                    Pago disponible próximamente
+              {/* Sección de pago con Ko-fi */}
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-6 sm:p-8 border-2 border-purple-200">
+                <div className="text-center mb-6">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mb-4">
+                    <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                    Elige tu plan y apoya el proyecto
                   </h3>
-                  <p className="text-sm text-gray-600">
-                    El sistema de pago estará disponible en el lanzamiento oficial. 
-                    Por ahora, tu preregistro garantiza tu lugar en la lista de espera.
+                  <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto">
+                    Selecciona el plan de Joi que mejor se adapte a ti y contribuye al desarrollo del proyecto. 
+                    Tu apoyo nos ayuda a hacer de Joi una realidad.
+                  </p>
+                </div>
+                
+                <div className="flex flex-col items-center gap-4">
+                  <a
+                    href="https://ko-fi.com/joi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-base sm:text-lg"
+                  >
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M23.881 8.948c-.169-4.225-3.663-7.599-7.881-7.599-4.317 0-7.713 3.521-7.881 7.599-.052.52-.052.52-.052 1.052 0 .532 0 .532.052 1.052.168 4.078 3.564 7.599 7.881 7.599 4.218 0 7.712-3.374 7.881-7.599.052-.52.052-.52.052-1.052 0-.532 0-.532-.052-1.052zm-1.904 1.104c-.052.52-.052.52-.052 1.052 0 .532 0 .532.052 1.052.126 3.126-2.438 5.699-5.526 5.699-3.087 0-5.652-2.573-5.777-5.699-.052-.52-.052-.52-.052-1.052 0-.532 0-.532.052-1.052.125-3.126 2.69-5.699 5.777-5.699 3.088 0 5.652 2.573 5.526 5.699z"/>
+                      <path d="M12.029 5.111c-1.916 0-3.47 1.554-3.47 3.47s1.554 3.47 3.47 3.47 3.47-1.554 3.47-3.47-1.554-3.47-3.47-3.47zm0 5.888c-1.333 0-2.418-1.085-2.418-2.418s1.085-2.418 2.418-2.418 2.418 1.085 2.418 2.418-1.085 2.418-2.418 2.418z"/>
+                    </svg>
+                    Ver planes en Ko-fi
+                  </a>
+                  <p className="text-xs sm:text-sm text-gray-500 text-center">
+                    Al hacer clic, serás redirigido a Ko-fi donde podrás elegir tu plan y realizar el pago de forma segura.
                   </p>
                 </div>
               </div>
