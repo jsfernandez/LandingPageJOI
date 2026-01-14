@@ -8,12 +8,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Joi - Tu compañera virtual con memoria',
+  title: 'eJoi - Tu compañera virtual con memoria',
   description: 'Plataforma de acompañamiento personal con IA. Una relación continua con una compañera virtual que recuerda tus gustos, hitos y contexto para que el vínculo evolucione.',
   keywords: ['IA', 'compañera virtual', 'chatbot', 'memoria persistente', 'avatar', 'Chile'],
-  authors: [{ name: 'Joi' }],
+  authors: [{ name: 'eJoi' }],
   openGraph: {
-    title: 'Joi - Tu compañera virtual con memoria',
+    title: 'eJoi - Tu compañera virtual con memoria',
     description: 'Plataforma de acompañamiento personal con IA. Una relación continua con una compañera virtual.',
     type: 'website',
     locale: 'es_CL',

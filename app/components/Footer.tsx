@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 md:col-span-2">
-            <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Joi</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">eJoi</h3>
             <p className="text-sm sm:text-base text-gray-400 mb-4 sm:mb-5 max-w-md">
               Tu compañera virtual con memoria. Una relación continua diseñada para crear 
               hábito y apego mediante continuidad emocional.
@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
-          <p>&copy; {currentYear} Joi. Todos los derechos reservados.</p>
+          <p>&copy; {currentYear} eJoi. Todos los derechos reservados.</p>
           <p className="mt-2">Diseñado y desarrollado con ❤️ en Chile</p>
         </div>
       </div>

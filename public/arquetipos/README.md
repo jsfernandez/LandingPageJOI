@@ -1,6 +1,6 @@
 # Imágenes de Arquetipos
 
-Coloca aquí las imágenes de los arquetipos de Joi:
+Coloca aquí las imágenes de los arquetipos de eJoi:
 
 - `ejecutiva.jpg` - La Ejecutiva (Secretaria/CEO)
 - `entusiasta.jpg` - La Entusiasta (Porrista/Coach)

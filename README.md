@@ -1,4 +1,4 @@
-# Joi V6 - Plataforma de Acompañamiento Personal con IA
+# eJoi V6 - Plataforma de Acompañamiento Personal con IA
 
 Plataforma de acompañamiento personal con IA diseñada como una relación continua, no como un chatbot utilitario. La experiencia se construye alrededor de una "compañera" virtual con presencia visual y memoria relacional.
 

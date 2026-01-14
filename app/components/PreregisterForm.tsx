@@ -109,7 +109,7 @@ export default function PreregisterForm() {
             Preregístrate ahora
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 px-2">
-            Sé uno de los primeros en experimentar Joi. Reserva tu lugar hoy.
+            Sé uno de los primeros en experimentar eJoi. Reserva tu lugar hoy.
           </p>
         </div>
 
@@ -287,14 +287,14 @@ export default function PreregisterForm() {
                     Elige tu plan y apoya el proyecto
                   </h3>
                   <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto">
-                    Selecciona el plan de Joi que mejor se adapte a ti y contribuye al desarrollo del proyecto. 
-                    Tu apoyo nos ayuda a hacer de Joi una realidad.
+                    Selecciona el plan de eJoi que mejor se adapte a ti y contribuye al desarrollo del proyecto. 
+                    Tu apoyo nos ayuda a hacer de eJoi una realidad.
                   </p>
                 </div>
                 
                 <div className="flex flex-col items-center gap-4">
                   <a
-                    href="https://ko-fi.com/joi"
+                    href="https://ko-fi.com/ejoi"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-base sm:text-lg"
